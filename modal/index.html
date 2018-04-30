@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal</title>
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <button class="btn" data-toggle="modal" data-target="#modal-one">Show Modal 1</button>
+
+    <div class="modal" id="modal-one">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title">Modal 1</div>
+                <button class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi risus, consectetur vitae orci et, venenatis ultrices risus. Morbi imperdiet massa eu nibh tempor tincidunt sit amet id sem.
+                </p>
+
+                <p>Ut porta interdum aliquam. Nullam dictum urna mi. Nulla vel convallis erat. Integer pretium, urna non tempor rutrum, erat neque porttitor urna, nec rutrum tortor ligula vel felis.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <button class="btn" data-toggle="modal" data-target="#modal-two">Show Modal 2</button>
+
+    <div class="modal" id="modal-two">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title">Modal 2</div>
+                <button class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet iaculis ex et vestibulum. Donec tincidunt, elit a hendrerit tristique, felis elit fermentum arcu, ut luctus sem nisl eu tellus. Sed a erat at sapien hendrerit semper.
+                    Nunc vel erat tristique, lacinia mauris nec, semper arcu. In viverra erat eget tristique facilisis. Quisque sed ex vulputate, tincidunt mi quis, dictum felis. Maecenas pharetra urna turpis, vel aliquet magna auctor sit amet. Nunc vel
+                    nunc orci. Morbi nibh dolor, ultrices et fermentum in, porta ac dui.</p>
+
+                <p>Ut lacinia fermentum porta. Suspendisse leo sapien, pharetra sit amet elit aliquam, pharetra laoreet felis. Morbi sit amet ligula massa. Donec interdum porta efficitur. Etiam imperdiet faucibus rhoncus. Morbi condimentum sodales laoreet.
+                    Cras blandit vitae neque eu bibendum. Nullam aliquet est risus, ac faucibus odio suscipit vel. Quisque vehicula maximus leo sit amet laoreet. Mauris varius convallis porta. Etiam at sem vitae arcu lacinia viverra laoreet molestie nunc.
+                    Phasellus laoreet quis orci ut auctor. Mauris sed nibh commodo, dictum felis eu, sodales purus. Praesent fermentum luctus suscipit. Donec in turpis non ex lacinia lacinia. Quisque vulputate urna mi, vitae eleifend diam iaculis a.</p>
+
+                <p>Mauris et orci porttitor, placerat velit at, semper ante. Nunc bibendum eros at ex accumsan elementum. Quisque porttitor nulla eget imperdiet vestibulum. Integer aliquet felis urna, vitae auctor tellus vehicula vel. Pellentesque habitant
+                    morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ex enim, faucibus eget tellus sit amet, faucibus eleifend orci. Proin congue faucibus sem sed porttitor. Nulla faucibus pharetra nibh vel aliquet.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
